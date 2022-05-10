@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+
+}
+.video-app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin:10px;
+
+}
+.section-interface-side button{
+    background:transparent;
+    width:60px;
+    height:40px ;
+    margin:10px;
+   
+    border: 1px solid;
+
+}
+.section-interface-bottom button{
+    background:transparent;
+    width:50px;
+    height:30px ;
+    
+    margin-bottom:10px;
+   
+    border: 1px solid;
+
+}
+.section-interface-bottom{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.section-interface-side{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
