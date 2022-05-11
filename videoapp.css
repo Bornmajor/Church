@@ -4,14 +4,17 @@
 
 }
 .video-frame{
+    background: url(images/tv-frame.png);
+    background-repeat: no-repeat;
+    background-size: 430px 280px;
+    background-position: center; 
+    
+
+
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 30px;
+    height:400px ;
+    
   
-    padding: 20px;
-}
-iframe {
-     border: 3px solid#fdc029 ;
-    border-radius: 25px; 
 }
