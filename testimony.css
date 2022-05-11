@@ -22,11 +22,11 @@
 }
 form {
     margin:auto;
-    width:400px;
+    width:350px;
  
 }
 input[type=text],input[type=email] {
-    width:400px;
+    width:300px;
     height:40px;
     margin:10px;
     display: block;
@@ -39,7 +39,7 @@ input[type=submit]{
     background-color: #fdc029;
     border:none;
 }textarea{
-    width: 400px;
+    width: 300px;
     margin:10px;
     resize: none;
 }
