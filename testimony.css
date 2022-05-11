@@ -1,5 +1,5 @@
 .dim-background {
-    background-image:url('images/churchview-dim.jpg') ;
+    background-image:url('images/testimony.jpg') ;
     color:white;
 
    
@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:600px;
+    height:800px;
 }
 .mid-text {
 
