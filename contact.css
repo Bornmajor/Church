@@ -10,31 +10,35 @@
 }
 .section-contact{
     display:flex;
-    margin-top:20px;
+    margin:40px;
+}
+form {
+    margin:auto;
+    width:450px;
+    
+    
 }
 .section-text{
     text-align:center;
     font-size: 30px;
     font-weight:bold; 
 }
-input[type=text]{
-    width:300px;
+input[type=text],input[type=email] {
+    width:400px;
+    height:40px;
     margin:10px;
+    display: block;
 
+}
+textarea{
+    width: 400px;
+    margin:10px;
+    resize: none;
 }
 input[type=submit]{
-    width:250px;
+    width:200px;
+    height:40px;
     margin:10px;
-    background-color:orange;
-    padding: 10px;
+    background-color: #fdc029;
     border:none;
-
-}
-textarea {
-    margin:10px;
-}
-form {
-    width:400px;
-    margin:auto;
-    padding:20px;
 }
