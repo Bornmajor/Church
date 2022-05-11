@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    
+}
+.container-frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    
+}
+#frame{
+    margin:20px;
+
+}
+@media screen and (max-width:800px){
+    .container-frame{
+        flex-direction: column;
+    }
+    #big{
+        width:450px;
+
+    }
+}
+
