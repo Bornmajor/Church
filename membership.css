@@ -21,6 +21,26 @@
     margin-top:20px;
 
 }
+form {
+    margin:auto;
+    width:400px;
+ 
+}
+input[type=text],input[type=email] {
+    width:400px;
+    height:40px;
+    margin:10px;
+    display: block;
+
+}
+input[type=submit]{
+    width:200px;
+    height:40px;
+    margin:10px;
+    background-color: #fdc029;
+    border:none;
+}
+
 .section-church-logo{
     display: flex;
     align-items: center;
