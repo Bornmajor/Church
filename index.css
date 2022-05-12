@@ -149,6 +149,7 @@ body {font-family: Verdana, sans-serif;}
   }
   .btn-C:hover {
     background-color:#fdc029;
+    cursor: pointer;
 
   }
   .church-message-section {
@@ -333,6 +334,9 @@ align-items: center;
   margin:20px;
   border: 1px solid;
 
+}
+.btn-S:hover{
+  cursor:progress;
 }
 
 
