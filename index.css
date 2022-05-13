@@ -64,8 +64,7 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
-  color: white;
+  color: black;
 }
 
 .dropdown-content a:hover {
