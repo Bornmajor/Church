@@ -133,14 +133,16 @@ video{
   .btn-C a {
       text-decoration:none;
       color:#333;
+      font-weight: bolder;
 
   }
   .btn-C {
       background:transparent;
-      width:100px;
+      width:150px;
       height:50px ;
       margin:20px;
       border: 1px solid;
+      border-radius: 20px;
      
   }
   .btn-C:hover {
@@ -194,11 +196,8 @@ video{
 }
 /*frame fb part*/
 .partE {
-  background-color: #4267B2;
-  padding:30px;
-  
+  background-color: #fdc029;
 
-  overflow:auto;
 }
 .session-section {
   display:flex;
@@ -242,6 +241,7 @@ flex-direction: column;
   background: url(images/dawn.jpg);
   background-repeat: no-repeat;
   background-size: 1300px 200px;
+  background-color: white;
 
 margin-top:150px;
 display:flex;
@@ -266,6 +266,17 @@ align-items: center;
     }
     .events:hover {
     border:2px solid #fdc029;
+    }
+
+    .carousel{
+      background-color: #f1f1f1;
+      width:800px;
+      margin:auto;
+      margin-top:40px;
+      margin-bottom:40px;
+    
+
+      
     }
    footer {
      display:flex;
@@ -347,5 +358,7 @@ align-items: center;
    width:100%;
 
  } 
-
+.carousel{
+  width: 300px;
+}
 }
