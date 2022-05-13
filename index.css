@@ -107,15 +107,12 @@ body {font-family: Verdana, sans-serif;}
     text-align: left;
   }
 }
+video{
+ width:100%; 
+}
 
 
 
- 
-  
-  
-  .section-video {
-    background-color: #fdc029;
-  }
 
 
   .menu-icon {
