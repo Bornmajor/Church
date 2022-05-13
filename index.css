@@ -133,7 +133,7 @@ video{
   .btn-C a {
       text-decoration:none;
       color:#333;
-      font-weight: bolder;
+    
 
   }
   .btn-C {
@@ -143,7 +143,7 @@ video{
       margin:20px;
       border: 1px solid;
       border-radius: 20px;
-     
+       font-weight: bolder;
   }
   .btn-C:hover {
     background-color:#fdc029;
