@@ -336,7 +336,7 @@ align-items: center;
 
 }
 .btn-S:hover{
-  cursor:progress;
+  cursor:not-allowed;
 }
 
 
