@@ -1,0 +1,11 @@
+.section-title-sermon{
+    display: flex;
+    height:150px;
+    background-color:#fdc029;
+    align-items: center;
+    color:white;
+
+}
+.title-sermon{
+    margin-left: 30px;
+}
