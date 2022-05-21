@@ -7,13 +7,13 @@
     background-image:url('images/back-view.jpg') ;
 
     color:white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 
-   
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    height:600px;
+    height:470px;
 }
 .mid-text {
 

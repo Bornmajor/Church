@@ -1,13 +1,14 @@
 .section-image {
-    background-image:url('images/men-house-dim.jpg') ;
+    background-image:url('images/men-house.jpg') ;
   background-size: 100%;
   
-    color:white;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:600px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:470px;
     
 }
 .section-text{

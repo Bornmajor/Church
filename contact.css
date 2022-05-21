@@ -1,11 +1,14 @@
 .section-image {
     background-image:url('images/blessing-2.jpg') ;
    
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:white;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    height:600px;
+    height:470px;
     
 }
 .section-contact{
