@@ -1,5 +1,11 @@
+.section-foundation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .dim-background {
-    background-image:url('images/testimony.jpg') ;
+    background-image:url('images/men-discussion-dim.jpg') ;
+
     color:white;
 
    
@@ -7,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:800px;
+    height:600px;
 }
 .mid-text {
 
@@ -15,10 +21,6 @@
     font-size: 30px;
     font-weight:bold; 
 
-}
-.section-testimony{
-    display:flex;
-    margin-top:20px;
 }
 form {
     margin:auto;
@@ -39,11 +41,21 @@ input[type=submit]{
     background-color: #fdc029;
     border:none;
 }
-input[type=submit]{
-    cursor:pointer;
+input[type=submit]:hover{
+    cursor:pointer ;
 }
-textarea{
-    width: 300px;
+.custom-select{
+    width:300px;
+    height:40px ;
+    margin: 10px;
+    background-color: #fdc029;
+
+
+}
+.verse-service{
+    font-style: italic;
+    font-size:14px ;
+    text-align: center;
     margin:10px;
-    resize: none;
+
 }

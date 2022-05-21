@@ -1,5 +1,11 @@
+.section-foundation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .dim-background {
-    background-image:url('images/testimony.jpg') ;
+    background-image:url('images/back-view.jpg') ;
+
     color:white;
 
    
@@ -7,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:800px;
+    height:600px;
 }
 .mid-text {
 
@@ -15,10 +21,6 @@
     font-size: 30px;
     font-weight:bold; 
 
-}
-.section-testimony{
-    display:flex;
-    margin-top:20px;
 }
 form {
     margin:auto;
@@ -39,11 +41,6 @@ input[type=submit]{
     background-color: #fdc029;
     border:none;
 }
-input[type=submit]{
-    cursor:pointer;
-}
-textarea{
-    width: 300px;
-    margin:10px;
-    resize: none;
+input[type=submit]:hover{
+    cursor:pointer ;
 }

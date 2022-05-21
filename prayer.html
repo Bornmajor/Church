@@ -1,11 +1,11 @@
 <html>
 <head>
-<title>Testimony Time</title>
+<title>Prayer Request</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta charset="utf-8">
 <link rel="icon" type="image/x-icon" href="images/logo.png">
-<link rel="stylesheet" href="testimony.css">
+<link rel="stylesheet" href="prayer.css">
 <link rel="stylesheet" href="index.css">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,29 +61,36 @@
   <script src="navbar.js"> </script>
 
 
+
   <div class="dim-background">
     <div class="mid-text">
-        SUBMIT TESTIMONY
+        PRAYER REQUEST
    </div>
 </div>
+<div class="prayer-verse">
+    <p>"Fear not, for I am with you; be not dismayed, for I am your God;</p>
+     <P>I will strengthen you, I will help you, I will uphold you with</P>
+     <P>my righteous right hand."</P> 
+     <p>Isaiah 41:10</p>
+</div>
 
-<div class="section-testimony">
-    <form name="testimony form" method="POST" data-netlify="true">
+<div class="section-prayer-form">
+    <form name="prayer request" method="POST" data-netlify="true">
       <h2 style="color: #fdc029;">Ambassadors Chapel Mombasa</h2>
       <br>
-      <h3>Testimony Time</h3>
+      <h3>Request a prayer</h3>
       
         <input type="text" name="name" placeholder=" Full Name" required/>
         <input type="text" name="phone number" placeholder="Mobile Phone" required/>
 
         <input type="email" name="email" placeholder="Email" required />
 
-        <input type="text" name="testimony title" placeholder="Testimony Title" required/>
+        <input type="text" name="prayer title" placeholder="Prayer Title" required/>
 
-        <textarea name="testimony" rows="10" cols="30"  placeholder="Testimony..." required></textarea>
-        <input type="text" name="location" placeholder="Location" >
+        <textarea name="prayer" rows="10" cols="30"  placeholder="Prayer..." required></textarea>
+    
 
-        <input type="submit" value="Submit Testimony"/>
+        <input type="submit" value="Submit Prayer"/>
 
     </form>
 </div>
