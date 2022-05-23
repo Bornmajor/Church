@@ -1,0 +1,26 @@
+.dim-background {
+    background-image:url('images/theme-new-dim.jpg') ;
+    color:white;
+    display: flex;
+    align-items: center;
+    background-size:100% 100%;
+    
+
+    background-repeat: no-repeat;
+    height:300px;
+}
+.inside-text {
+    margin-left:20px ;
+    text-align:left;
+    font-size: 30px;
+    font-weight:bold; 
+    
+
+}
+.section-welcome-message{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+
+}

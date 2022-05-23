@@ -1,0 +1,46 @@
+.section-foundation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dim-background {
+    background-image:url('../images/back-view.jpg') ;
+
+    color:white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+}
+.mid-text {
+
+    text-align:center;
+    font-size: 30px;
+    font-weight:bold; 
+
+}
+form {
+    margin:auto;
+    width:350px;
+ 
+}
+input[type=text],input[type=email] {
+    width:300px;
+    height:40px;
+    margin:10px;
+    display: block;
+
+}
+input[type=submit]{
+    width:200px;
+    height:40px;
+    margin:10px;
+    background-color: #fdc029;
+    border:none;
+}
+input[type=submit]:hover{
+    cursor:pointer ;
+}

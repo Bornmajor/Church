@@ -1,0 +1,51 @@
+.dim-background {
+    background-image:url('../images/youth-dim.jpg') ;
+    color:white;
+
+   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+}
+.mid-text {
+
+    text-align:center;
+    font-size: 30px;
+    font-weight:bold; 
+
+}
+.section-about {
+   text-align: center;
+   background-color:#5e0f68 ;
+   color:white;
+   padding:70px;
+}
+.section-message {
+    display:flex ;
+    
+    
+
+
+}
+.section-one{
+text-align: justify;
+margin:20px;
+
+}
+    
+@media  screen and (max-width :800px) {
+.section-message {
+    flex-direction: column;
+}
+.section-image img {
+    width:100%;
+
+}
+
+    
+}

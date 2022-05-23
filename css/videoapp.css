@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+
+}
+.video-frame{
+    background: url(images/tv-frame.png);
+    background-repeat: no-repeat;
+    background-size: 430px 280px;
+    background-position: center; 
+    
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:400px ;
+    
+  
+}

@@ -1,0 +1,44 @@
+.section-image {
+    background-image:url('../images/men-house.jpg') ;
+  background-size: 100%;
+  
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:500px;
+    
+}
+.section-text{
+    text-align:center;
+    font-size: 50px;
+    font-variant: small-caps;
+    font-weight:bold;
+    
+}
+.section-about{
+    display: flex;
+    margin-top:20px;
+    margin-bottom:20px ;
+}
+.men-article{
+    width:50%;
+    padding:40px ;
+    text-align: left;
+
+}
+.men-pic{
+    width:50%;
+}
+@media screen and (max-width:800px) {
+    .section-about{
+        flex-direction: column;
+    }
+    .men-article ,.men-pic{
+        width: 100%;
+    }
+
+    
+}
