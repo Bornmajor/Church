@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "my-app",
+    "slug": "my-api-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/myapilogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/myapilogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/myapilogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.bornmaja.myapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3e34b8f0-c676-4790-a103-7985acd253d0"
+      }
+    },
+    "owner": "bornmaja"
+  }
+}
